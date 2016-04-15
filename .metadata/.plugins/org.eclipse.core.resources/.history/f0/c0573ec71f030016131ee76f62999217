@@ -1,0 +1,14 @@
+package j19;
+
+public class j19 {
+	j19(String a, String b, String c){
+		System.out.println("This is a constructor with String "+a+"+String"+b+"+String "+c);
+	}
+	j19(String a, String b, int c){
+		System.out.println("This is a constructor with String "+a+"+String"+b+"+int "+c);
+	}
+
+	j19(String a, int b, int c){
+		System.out.println("This is a constructor with String "+a+"+int"+b+"+int "+c);
+	}
+}
